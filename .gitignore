@@ -1,6 +1,7 @@
 # external
 .password-store/
-.ssh
+.ssh/
+.asdf/
 tmp/
 work/
 
