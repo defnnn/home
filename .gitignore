@@ -1,0 +1,19 @@
+# external
+.password-store/
+tmp/
+work/
+
+# working files
+.bash_history
+.viminfo
+
+# macos
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
