@@ -260,6 +260,14 @@
           }
         }
       }
+    },
+    "cask": {
+      "docker": {
+        "version": "4.5.0,74594",
+        "options": {
+          "full_name": "docker"
+        }
+      }
     }
   },
   "system": {
