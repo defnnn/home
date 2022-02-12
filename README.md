@@ -19,4 +19,6 @@ pip3 install --user --upgrade pipx pip
 pipx install pre-commit
 
 pca
+
+git clone https://github.com/cue-sh/vscode-cue ~/.vscode/extensions/vscode-cue
 ```
