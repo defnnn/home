@@ -21,4 +21,9 @@ pipx install pre-commit
 pca
 
 git clone https://github.com/cue-sh/vscode-cue ~/.vscode/extensions/vscode-cue
+
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension vscodevim.vim
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
 ```
