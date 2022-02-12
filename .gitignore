@@ -15,6 +15,7 @@ work
 .npm
 .docker
 .tilt-dev
+.config
 
 # macos
 Applications/
