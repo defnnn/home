@@ -9,6 +9,7 @@ work/
 .bash_history
 .viminfo
 .vscode
+.python_history
 
 # macos
 Applications/
