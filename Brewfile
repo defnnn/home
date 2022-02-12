@@ -5,4 +5,6 @@ brew "git-crypt"
 brew "pass"
 brew "pass-otp"
 
+brew "tilt"
+
 cask "docker"
