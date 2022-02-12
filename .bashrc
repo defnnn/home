@@ -3,7 +3,7 @@ function gs {
 }
 
 function vi {
-	if [[ -n "${VSCODE_PID:-}" ]]; then
+	if [[ -n "${VSCODE_GIT_IPC_HANDLE=:-}" ]]; then
 		command code "$@"
 	else
 		command vi "$@"
