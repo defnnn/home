@@ -1,17 +1,24 @@
 {
   "workbench.colorTheme": "Default Dark+",
   "workbench.startupEditor": "none",
+
   "git.confirmSync": false,
+
   "redhat.telemetry.enabled": false,
-  "python.formatting.provider": "black",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+
+  "remote.SSH.localServerDownload": "auto",
+  "remote.SSH.showLoginTerminal": true,
+  "remote.containers.cacheVolume": true,
+  "remote.containers.dockerComposePath": "docker compose",
+
+  "python.formatting.provider": "black",
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true,
       "source.organizeImports.python": true
     }
-  },
-  "window.zoomLevel": -1,
-  "remote.SSH.localServerDownload": "auto",
-  "remote.SSH.showLoginTerminal": true
+  }
 }
