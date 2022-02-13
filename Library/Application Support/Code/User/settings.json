@@ -10,7 +10,7 @@
   "editor.formatOnSave": true,
 
   "remote.SSH.localServerDownload": "auto",
-  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.showLoginTerminal": false,
   "remote.containers.cacheVolume": true,
   "remote.containers.dockerComposePath": "docker compose",
 
