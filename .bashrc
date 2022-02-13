@@ -21,11 +21,17 @@ function pca {
 # asdf
 . $HOME/.asdf/asdf.sh
 
+# pipx
+PATH="$HOME/.local/bin:$PATH"
+
+# vscode
+if [[ -n "${VSCODE_GIT_IPC_HANDLE=:-}" ]]; then
+	export VISUAL="code --wait"
+fi
+
 # gpg-agent ssh socket
 SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh; export SSH_AUTH_SOCK
 
 # macos python
 PATH="$HOME/Library/Python/3.8/bin:$PATH"
 
-# pipx
-PATH="$HOME/.local/bin:$PATH"
