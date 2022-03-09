@@ -20,5 +20,7 @@
       "source.organizeImports": true,
       "source.organizeImports.python": true
     }
-  }
+  },
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.localEchoEnabled": "off"
 }
