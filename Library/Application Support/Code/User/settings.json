@@ -22,5 +22,6 @@
     }
   },
   "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.localEchoEnabled": "off"
+  "terminal.integrated.localEchoEnabled": "off",
+  "terminal.integrated.enableMultiLinePasteWarning": false
 }
