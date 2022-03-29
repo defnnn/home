@@ -17,6 +17,7 @@ work
 .tilt-dev
 .config
 .kube
+.lesshst
 
 # macos
 Applications/
