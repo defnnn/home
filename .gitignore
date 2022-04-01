@@ -18,6 +18,8 @@ work
 .config
 .kube
 .lesshst
+.cups
+.k3d
 
 # macos
 Applications/
