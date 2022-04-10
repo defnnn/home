@@ -1,0 +1,15 @@
+services:
+  sync:
+    image: "defn/dev"
+    volumes:
+      - "${HOME}/.kube:/mnt/kube-host"
+      - "kube:/mnt/kube"
+    entrypoint:
+      - bash
+      - -c
+      - "cd /mnt/kube && ~/.local/bin/watchmedo shell-command --patterns 'config' --command 'mkdir -p /tmp/kube && rsync -ia config /mnt/kube-host/'"
+
+volumes:
+  kube:
+    external: true
+    name: k3d-kube
