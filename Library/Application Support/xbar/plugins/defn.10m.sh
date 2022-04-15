@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 function main {
+    cd
+    export HOME="${HOME:-$(pwd)}"
     echo 'defn.dev'
     echo '---'
     echo "devcontainer | terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='vscode-remote://dev-container+2f55736572732f6465666e2f776f726b2f646576/home/ubuntu'"

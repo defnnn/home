@@ -22,7 +22,7 @@ function pca {
 . $HOME/.asdf/asdf.sh
 
 # pipx
-PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/.local/bin:/usr/local/bin:$PATH"
 
 # vscode
 if [[ -n "${VSCODE_GIT_IPC_HANDLE=:-}" ]]; then
