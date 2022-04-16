@@ -4,6 +4,7 @@
   "mounts": [
     "source=k3d-password-store,target=/home/ubuntu/.password-store",
     "source=k3d-kube,target=/home/ubuntu/.kube",
+    "source=k3d-work,target=/home/ubuntu/work",
     "source=k3d-work,target=/workspaces"
   ],
   "runArgs": ["-v", "/var/run/docker.sock:/var/run/docker.sock"],
