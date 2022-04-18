@@ -23,5 +23,6 @@
   },
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.localEchoEnabled": "off",
-  "terminal.integrated.enableMultiLinePasteWarning": false
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": -1
 }
