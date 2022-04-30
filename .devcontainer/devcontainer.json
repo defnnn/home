@@ -4,9 +4,12 @@
   "mounts": [
     "source=k3d-password-store,target=/home/ubuntu/.password-store",
     "source=k3d-kube,target=/home/ubuntu/.kube",
-    "source=k3d-work,target=/home/ubuntu/work",
-    "source=k3d-work,target=/workspaces"
+    "source=${localEnv:HOME}/work,target=${localEnv:HOME}/work,type=bind,consistency=consistent"
   ],
-  "runArgs": ["-v", "/var/run/docker.sock:/var/run/docker.sock"],
+  "runArgs": [
+    "-v",
+    "/var/run/docker.sock:/var/run/docker.sock",
+    "--network=cloudbuild"
+  ],
   "postStartCommand": "/home/ubuntu/etc/hook-start"
 }
