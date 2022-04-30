@@ -1,1 +1,1 @@
-FROM defn/dev
+FROM defn/dev:tower
