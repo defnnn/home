@@ -9,4 +9,4 @@ brew "tilt"
 brew "ccmenu"
 
 cask "docker"
-bask "xbar"
+cask "xbar"
