@@ -1,6 +1,6 @@
 services:
   sync:
-    image: "defn/dev"
+    image: "defn/dev:tower"
     volumes:
       - "${HOME}/.kube:/mnt/kube-host"
       - "kube:/mnt/kube"
