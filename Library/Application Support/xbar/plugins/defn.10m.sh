@@ -12,7 +12,8 @@ function main {
 
     echo "devcontainer | terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='vscode-remote://dev-container+${devcontainer}/home/ubuntu'"
 
-    echo "vscode | terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='code --folder-uri file://${HOME}/work'"
+    echo "macos| terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='file://${HOME}/work'"
+    echo "fly| terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='vscode-remote://ssh-remote+fly/home/ubuntu'"
 
     for k3d in $(/usr/local/bin/k3d cluster list | awk 'NR > 1 {print $1}'); do
         echo "vscode local ${k3d} | terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='vscode-remote://k8s-container+context=k3d-${k3d}+namespace=${k3d}+podname=${k3d}+name=defn+image=remote+/home/ubuntu'"
