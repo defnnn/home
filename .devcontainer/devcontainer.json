@@ -4,7 +4,7 @@
   "mounts": [
     "source=k3d-password-store,target=/home/ubuntu/.password-store",
     "source=k3d-kube,target=/home/ubuntu/.kube",
-    "source=${localEnv:HOME}/work,target=${localEnv:HOME}/work,type=bind,consistency=consistent"
+    "source=${localEnv:HOME}/work,target=${localEnv:HOME}/work,type=bind,consistency=delegated"
   ],
   "runArgs": [
     "-v",
