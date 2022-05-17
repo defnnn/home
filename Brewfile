@@ -7,8 +7,8 @@ brew "pass-otp"
 
 cask "docker"
 brew "tilt"
-brew "earthly"
+#brew "earthly"
 
 cask "xbar"
-brew "ccmenu"
+cask "ccmenu"
 brew "powerline-go"
