@@ -11,3 +11,4 @@ brew "earthly"
 
 cask "xbar"
 brew "ccmenu"
+brew "powerline-go"
