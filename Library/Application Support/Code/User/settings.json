@@ -25,7 +25,5 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.localEchoEnabled": "off",
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "workbench.editor.untitled.hint": "hidden",
-
-  "remote.SSH.defaultExtensions": ["ms-python.python"]
+  "workbench.editor.untitled.hint": "hidden"
 }
