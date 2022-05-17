@@ -5,8 +5,9 @@ brew "git-crypt"
 brew "pass"
 brew "pass-otp"
 
-brew "tilt"
-brew "ccmenu"
-
 cask "docker"
+brew "tilt"
+brew "earthly"
+
 cask "xbar"
+brew "ccmenu"
