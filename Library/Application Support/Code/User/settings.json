@@ -1,19 +1,12 @@
 {
   "workbench.colorTheme": "Default Dark+",
   "workbench.startupEditor": "none",
-
   "git.confirmSync": false,
-
-  "redhat.telemetry.enabled": false,
-
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-
-  "remote.SSH.localServerDownload": false,
+  "remote.SSH.localServerDownload": "off",
   "remote.SSH.showLoginTerminal": false,
   "remote.containers.cacheVolume": true,
   "remote.containers.dockerComposePath": "docker compose",
-
   "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "basic",
   "[python]": {
