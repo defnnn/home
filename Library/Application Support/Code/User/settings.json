@@ -9,6 +9,7 @@
   "remote.containers.dockerComposePath": "docker compose",
   "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "basic",
+  "python.poetryPath": "/home/ubuntu/.local/bin/poetry",
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true,
