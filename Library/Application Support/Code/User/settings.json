@@ -23,7 +23,7 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.shellArgs.linux": [
     "-c",
-    "flock -n /tmp/meh.lock -c '~/bin/e make dev'; exec bash -l"
+    "~/bin/e make dev; exec bash -l"
   ],
   "workbench.editor.untitled.hint": "hidden"
 }
