@@ -21,6 +21,9 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.localEchoEnabled": "off",
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "terminal.integrated.shellArgs.linux": ["-c", "export MEH=1; exec bash -l"],
+  "terminal.integrated.shellArgs.linux": [
+    "-c",
+    "flock -n /tmp/meh.lock -c '~/bin/e make dev'; exec bash -l"
+  ],
   "workbench.editor.untitled.hint": "hidden"
 }
