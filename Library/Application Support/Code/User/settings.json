@@ -23,7 +23,7 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.shellArgs.linux": [
     "-c",
-    "cd ~/work/cloud; ~/bin/e make dev 2>/dev/null; exec bash -l"
+    "~/bin/e make dev 2>/dev/null; exec bash -l"
   ],
   "workbench.editor.untitled.hint": "hidden"
 }
