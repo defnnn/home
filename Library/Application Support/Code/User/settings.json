@@ -25,5 +25,9 @@
     "-c",
     "~/bin/e make dev 2>/dev/null; exec bash -l"
   ],
-  "workbench.editor.untitled.hint": "hidden"
+  "workbench.editor.untitled.hint": "hidden",
+  "redhat.telemetry.enabled": false,
+  "files.associations": {
+    "BUILD": "python"
+  }
 }

@@ -22,6 +22,12 @@ work
 .cups
 .k3d
 .fly
+.irssi
+.localized
+.*.key
+.zsh_history
+.zsh_sessions
+.earthly
 
 # macos
 Applications/
@@ -34,5 +40,5 @@ Music/
 Pictures/
 Public/
 .Trash/
+.CFUserTextEncoding
 .DS_Store
-.irssi
