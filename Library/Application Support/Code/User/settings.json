@@ -28,6 +28,7 @@
   "workbench.editor.untitled.hint": "hidden",
   "redhat.telemetry.enabled": false,
   "files.associations": {
-    "BUILD": "python"
+    "BUILD": "python",
+    "Earthfile": "plaintext"
   }
 }
