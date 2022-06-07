@@ -1,0 +1,3 @@
+[submodule ".vscode/extensions/vscode-cue"]
+	path = .vscode/extensions/vscode-cue
+	url = https://github.com/cue-sh/vscode-cue
