@@ -9,6 +9,8 @@
   "remote.containers.cacheVolume": true,
   "remote.SSH.lockfilesInTmp": true,
   "remote.containers.dockerComposePath": "docker compose",
+  "remote.containers.copyGitConfig": false,
+  "remote.containers.gitCredentialHelperConfigLocation": "none",
   "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "basic",
   "python.poetryPath": "/home/ubuntu/.local/bin/poetry",
