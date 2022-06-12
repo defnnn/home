@@ -5,8 +5,8 @@
     "command": "remote-containers.rebuildAndReopenInContainer"
   },
   {
-    "key": "cmd+1",
-    "command": "joyride.runWorkspaceScript",
-    "args": "example.cljs"
+    "key": "ctrl+up",
+    "command": "git.stage",
+    "when": "workbench.scm.active"
   }
 ]
