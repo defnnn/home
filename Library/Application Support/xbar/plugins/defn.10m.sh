@@ -20,6 +20,7 @@ function main {
 
     echo "devpod | terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='vscode-remote://k8s-container+context=k3d-k3s-default+namespace=default+podname=dev-0+name=dev+/home/ubuntu'"
     echo "new devpod | terminal=false | shell=${HOME}/etc/env.sh | param1='bash' | param2='-c' | param3='cd ~/work/dev && make k3d attach'"
+    echo "delete devpod | terminal=false | shell=${HOME}/etc/env.sh | param1='bash' | param2='-c' | param3='k3d cluster delete'"
 
     echo '---'
 
