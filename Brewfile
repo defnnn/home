@@ -10,6 +10,7 @@ brew "hopenpgp-tools"
 brew "ykman"
 
 cask "docker"
+cask "lens"
 brew "tilt"
 brew "earthly"
 
