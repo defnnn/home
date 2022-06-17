@@ -13,6 +13,7 @@ cask "docker"
 cask "lens"
 brew "tilt"
 brew "earthly"
+brew "helm"
 
 cask "xbar"
 cask "ccmenu"
