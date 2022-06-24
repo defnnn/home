@@ -42,3 +42,4 @@ Public/
 .Trash/
 .CFUserTextEncoding
 .DS_Store
+.wget-hsts
