@@ -33,5 +33,6 @@
     "BUILD": "python",
     "Earthfile": "plaintext"
   },
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "editor.minimap.enabled": false
 }
