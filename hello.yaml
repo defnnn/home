@@ -2,7 +2,7 @@ type: Dataplane
 mesh: demo
 name: hello
 networking:
-  address: { { address } }
+  address: "{{ address }}"
   inbound:
     - port: 8000
       servicePort: 8888
