@@ -737,6 +737,12 @@
         "options": {
           "full_name": "tunnelblick"
         }
+      },
+      "rancher": {
+        "version": "1.4.1",
+        "options": {
+          "full_name": "rancher"
+        }
       }
     }
   },

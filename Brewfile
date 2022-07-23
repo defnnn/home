@@ -10,11 +10,10 @@ brew "hopenpgp-tools"
 brew "ykman"
 brew "wireguard-tools"
 
-cask "docker"
+cask "rancher"
 cask "lens"
 brew "tilt"
 brew "earthly"
-brew "helm"
 brew "kustomize"
 brew "k3d"
 
