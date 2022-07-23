@@ -16,6 +16,7 @@ brew "tilt"
 brew "earthly"
 brew "kustomize"
 brew "k3d"
+brew "skopeo"
 
 cask "xbar"
 cask "ccmenu"
