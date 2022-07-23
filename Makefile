@@ -4,6 +4,10 @@ up:
 down:
 	docker-compose down
 
+wg:
+	-wg-quick down $$(pwd)/wg0.conf
+	wg-quick up $$(pwd)/wg0.conf
+
 kuma-cp:
 	env \
 		KUMA_MODE=zone KUMA_MULTIZONE_ZONE_NAME=immanent \
