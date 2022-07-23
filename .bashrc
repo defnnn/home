@@ -3,7 +3,7 @@ function gs {
 }
 
 function vi {
-	if [[ -n "${VSCODE_GIT_IPC_HANDLE=:-}" ]]; then
+	if [[ -n "${VSCODE_GIT_IPC_HANDLE:-}" ]]; then
 		command code "$@"
 	else
 		command vi "$@"
@@ -24,8 +24,11 @@ function pca {
 # pipx
 PATH="$HOME/.local/bin:/usr/local/bin:$PATH"
 
+# rancher
+PATH="$HOME/.rd/bin:$PATH"
+
 # vscode
-if [[ -n "${VSCODE_GIT_IPC_HANDLE=:-}" ]]; then
+if [[ -n "${VSCODE_GIT_IPC_HANDLE:-}" ]]; then
 	export VISUAL="code --wait"
 fi
 
