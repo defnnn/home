@@ -10,7 +10,6 @@ brew "hopenpgp-tools"
 brew "ykman"
 brew "wireguard-tools"
 
-cask "rancher"
 cask "lens"
 brew "tilt"
 brew "earthly"
