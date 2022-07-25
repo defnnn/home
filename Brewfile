@@ -17,6 +17,7 @@ brew "kustomize"
 brew "k3d"
 brew "skopeo"
 brew "k3sup"
+brew "doctl"
 
 cask "xbar"
 cask "ccmenu"
