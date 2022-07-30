@@ -41,5 +41,6 @@
       "onAutoForward": "ignore"
     }
   },
-  "terraform.languageServer.ignoreSingleFileWarning": true
+  "terraform.languageServer.ignoreSingleFileWarning": true,
+  "terminal.integrated.showExitAlert": false
 }
