@@ -40,5 +40,6 @@
       "label": "docker registry",
       "onAutoForward": "ignore"
     }
-  }
+  },
+  "terraform.languageServer.ignoreSingleFileWarning": true
 }
