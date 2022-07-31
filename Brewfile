@@ -1,5 +1,8 @@
+brew "jq"
+brew "gron"
 brew "wget"
 brew "git"
+
 brew "gnupg"
 brew "pinentry-mac"
 brew "git-crypt"
