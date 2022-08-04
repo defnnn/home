@@ -42,5 +42,7 @@
     }
   },
   "terraform.languageServer.ignoreSingleFileWarning": true,
-  "terminal.integrated.showExitAlert": false
+  "terminal.integrated.showExitAlert": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false
 }
