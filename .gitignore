@@ -50,3 +50,4 @@ Public/
 .kuberlr
 .terraform*
 /go
+.swp
