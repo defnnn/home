@@ -2,6 +2,7 @@ brew "jq"
 brew "gron"
 brew "wget"
 brew "git"
+brew "gh"
 
 brew "gnupg"
 brew "pinentry-mac"
