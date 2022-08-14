@@ -22,6 +22,7 @@ brew "skopeo"
 brew "k3sup"
 brew "doctl"
 brew "kubectl"
+brew "helm"
 brew "terraform"
 
 cask "xbar"
