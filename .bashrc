@@ -32,6 +32,9 @@ if [[ -n "${VSCODE_GIT_IPC_HANDLE:-}" ]]; then
 	export VISUAL="code --wait"
 fi
 
+# dev
+PATH="$HOME/work/dev/bin:$PATH"
+
 # gpg-agent ssh socket
 SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh; export SSH_AUTH_SOCK
 
