@@ -18,11 +18,12 @@ function pca {
 	pre-commit run --all "$@"
 }
 
-# asdf
-. $HOME/.asdf/asdf.sh
 
 # pipx
 PATH="$HOME/.local/bin:/usr/local/bin:$PATH"
+
+# asdf
+. $HOME/.asdf/asdf.sh
 
 # rancher
 PATH="$HOME/.rd/bin:$PATH"
