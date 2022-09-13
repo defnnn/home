@@ -52,3 +52,4 @@ Public/
 /go
 .swp
 .vim
+Brewfile.lock.json
