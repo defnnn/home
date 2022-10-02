@@ -22,7 +22,6 @@ brew "k3d"
 brew "skopeo"
 brew "oras"
 brew "doctl"
-brew "kubectl"
 brew "helm"
 brew "terraform"
 
@@ -32,4 +31,5 @@ cask "divvy"
 cask "iterm2"
 cask "tunnelblick"
 cask "dash"
+cask "obs"
 
