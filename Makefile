@@ -27,3 +27,6 @@ kuma-hello:
 		--dataplane-file=hello.yaml \
 		--dataplane-token-file=/tmp/hello.token \
   		--dataplane-var address=$$(ifconfig en0 | grep 'inet ' | awk '{print $$2}')
+nix-bootstrP:
+	sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume --daemon
+
