@@ -18,9 +18,6 @@ function pca {
 	pre-commit run --all "$@"
 }
 
-# nix
-PATH="$HOME/.nix-profile/bin:$PATH"
-
 # pipx
 PATH="$HOME/.local/bin:/usr/local/bin:$PATH"
 
@@ -57,3 +54,7 @@ if tty >/dev/null; then
     PROMPT_COMMAND="update_ps1"
   fi
 fi
+
+# nix
+PATH="$HOME/.nix-profile/bin:$PATH"
+
