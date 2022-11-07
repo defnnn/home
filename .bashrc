@@ -18,6 +18,8 @@ function pca {
 	pre-commit run --all "$@"
 }
 
+# nix
+PATH="$HOME/.nix-profile/bin:$PATH"
 
 # pipx
 PATH="$HOME/.local/bin:/usr/local/bin:$PATH"

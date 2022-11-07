@@ -53,3 +53,5 @@ Public/
 .swp
 .vim
 Brewfile.lock.json
+.nix-profile
+
