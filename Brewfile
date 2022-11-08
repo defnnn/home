@@ -4,8 +4,8 @@ cask "xbar"
 cask "ccmenu"
 cask "divvy"
 cask "iterm2"
-cask "docker
+cask "docker"
 cask "little-snitch"
 cask "google-chrome"
-cask "keyboard-maestro	"
+cask "keyboard-maestro"
 
