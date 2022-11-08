@@ -1,13 +1,3 @@
-up:
-	docker-compose up -d
-
-down:
-	docker-compose down
-
-wg:
-	-wg-quick down $$(pwd)/wg0.conf
-	wg-quick up $$(pwd)/wg0.conf
-
 kuma-cp:
 	env \
 		KUMA_MODE=zone KUMA_MULTIZONE_ZONE_NAME=immanent \
@@ -27,6 +17,8 @@ kuma-hello:
 		--dataplane-file=hello.yaml \
 		--dataplane-token-file=/tmp/hello.token \
   		--dataplane-var address=$$(ifconfig en0 | grep 'inet ' | awk '{print $$2}')
-nix-bootstrP:
+nix-bootstrap:
 	sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume --daemon
 
+nix-install:
+	nix profile install nixpkgs#{terraform,git-crypt,gnupg,pass,powerline-go,git}
