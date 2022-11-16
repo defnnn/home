@@ -7,7 +7,7 @@ function main {
     echo 'defn/dev'
 
     echo '---'
-    echo "auth| terminal=false | shell=${HOME}/etc/env.sh | param1='bash' | param2='-c' | param3='pass pass-EBE020A544E04B9C67215280B8B6F42683E6CCEF | pbcopy'"
+    echo "auth| terminal=false | shell=${HOME}/etc/env.sh | param1='bash' | param2='-c' | param3='echo -n | pbcopy; pass pass-EBE020A544E04B9C67215280B8B6F42683E6CCEF | pbcopy'"
 
     #echo "macos | terminal=false | shell=${HOME}/etc/env.sh | param1='code' | param2='--folder-uri' | param3='file://${HOME}/work'"
 
