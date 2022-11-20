@@ -1,4 +1,5 @@
 brew "pinentry-mac"
+brew "flyctl"
 
 cask "xbar"
 cask "ccmenu"
