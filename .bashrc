@@ -44,6 +44,9 @@ if test -f ~/.nix-profile/etc/profile.d/nix.sh;then
 	source ~//.nix-profile/etc/profile.d/nix.sh
 fi
 
+# bash
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # direnv
 export DIRENV_LOG_FORMAT=
 
@@ -52,9 +55,6 @@ if type -P direnv >/dev/null; then
 	_direnv_hook
 	unset DIRENV_DIFF DIRENV_WATCHES
 fi
-
-# bash
-export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # powerline-go
 if tty >/dev/null; then
@@ -72,5 +72,9 @@ if tty >/dev/null; then
 
     PROMPT_COMMAND="update_ps1"
   fi
+fi
+
+if type -P direnv >/dev/null; then
+	eval "$(direnv hook bash)"
 fi
 
