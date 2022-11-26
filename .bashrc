@@ -54,7 +54,6 @@ if type -P direnv >/dev/null; then
 fi
 
 # bash
-PATH="/bin:$PATH"
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # powerline-go
