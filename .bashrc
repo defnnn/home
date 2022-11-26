@@ -38,6 +38,26 @@ SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh; export SSH_AUTH_SOCK
 # macos python
 PATH="$HOME/Library/Python/3.8/bin:$PATH"
 
+# nix
+PATH="$HOME/.nix-profile/bin:$PATH"
+if test -f ~/.nix-profile/etc/profile.d/nix.sh;then
+	source ~//.nix-profile/etc/profile.d/nix.sh
+fi
+
+# direnv
+export DIRENV_LOG_FORMAT=
+
+if type -P direnv >/dev/null; then
+	eval "$(direnv hook bash)"
+	_direnv_hook
+	unset DIRENV_DIFF DIRENV_WATCHES
+fi
+
+# bash
+PATH="/bin:$PATH"
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# powerline-go
 if tty >/dev/null; then
   if type -P powerline-go >/dev/null; then
 	function render_ps1 {
@@ -54,7 +74,4 @@ if tty >/dev/null; then
     PROMPT_COMMAND="update_ps1"
   fi
 fi
-
-# nix
-PATH="$HOME/.nix-profile/bin:$PATH"
 

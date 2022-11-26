@@ -1,3 +1,4 @@
+brew "direnv"
 brew "pinentry-mac"
 brew "flyctl"
 

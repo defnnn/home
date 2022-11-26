@@ -20,5 +20,3 @@ kuma-hello:
 nix-bootstrap:
 	sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume --daemon
 
-nix-install:
-	nix profile install nixpkgs#{terraform,git-crypt,gnupg,pass,powerline-go,git,kustomize,kubernetes-helm,oras}
