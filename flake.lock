@@ -108,16 +108,16 @@
         "yaegi": "yaegi"
       },
       "locked": {
-        "lastModified": 1669532759,
-        "narHash": "sha256-ext9WpD5Fqkwt9fIqQ5uNp6oRwbk3sPMN67P/fkr34U=",
+        "lastModified": 1669534849,
+        "narHash": "sha256-lDBCLB31OSlasoMXhjTrIhCvDx4i2GjC34QaEsByP2Q=",
         "owner": "defn",
         "repo": "dev",
-        "rev": "68c5a21b21ecad941ec08a166a2f69d00a91a9c5",
+        "rev": "d81a9edc2860a14de2da9debee3d65aa644c022a",
         "type": "github"
       },
       "original": {
         "owner": "defn",
-        "ref": "v0.0.21",
+        "ref": "v0.0.22",
         "repo": "dev",
         "type": "github"
       }
