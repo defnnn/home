@@ -1,6 +1,7 @@
 {
   inputs = {
     dev.url = github:defn/pkg?dir=dev&ref=v0.0.63;
+    defn-dev.url = github:defn/dev?ref=v0.0.10;
   };
 
   outputs = inputs:
@@ -20,24 +21,7 @@
         in
         rec {
           devShell = wrap.devShell;
-
-          defaultPackage = wrap.nullBuilder {
-            propagatedBuildInputs = with pkgs; [
-              pass
-              gnupg
-              powerline-go
-              vim
-              git-crypt
-              vault
-              rsync
-              gnumake
-              dnsutils
-              openssh
-              pre-commit
-              vim
-              aws-vault
-            ];
-          };
+          defaultPackage = wrap.nullBuilder { };
         };
     };
 }
