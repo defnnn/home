@@ -9,17 +9,14 @@
       inherit inputs;
 
       config = rec {
-        slug = "defn-dev";
+        slug = "defn-home";
         version = "0.0.1";
         homepage = "https://defn.sh/${slug}";
-        description = "dev environment home directory";
+        description = "defn macOS home directory";
       };
 
       handler = { pkgs, wrap, system }:
-        let
-          latest = import inputs.latest { inherit system; };
-        in
-        rec {
+        {
           devShell = wrap.devShell;
           defaultPackage = wrap.nullBuilder { };
         };
