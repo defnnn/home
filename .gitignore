@@ -56,4 +56,5 @@ Public/
 Brewfile.lock.json
 .nix-profile
 .direnv
+result
 
