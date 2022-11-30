@@ -1,6 +1,5 @@
-brew "direnv"
+brew "pass"
 brew "pinentry-mac"
-brew "flyctl"
 
 cask "xbar"
 cask "ccmenu"

@@ -38,7 +38,11 @@ SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh; export SSH_AUTH_SOCK
 # macos python
 PATH="$HOME/Library/Python/3.8/bin:$PATH"
 
+# homebrew
+PATH="$PATH:/opt/homebrew/bin"
+
 # nix
+export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
 PATH="$HOME/.nix-profile/bin:$PATH"
 if test -f ~/.nix-profile/etc/profile.d/nix.sh;then
 	source ~//.nix-profile/etc/profile.d/nix.sh
